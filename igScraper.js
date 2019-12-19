@@ -6,6 +6,11 @@ const domino = require('domino');
 //here you can replace the image id from the website for any image you would like to get the profile from
 const igImgId = 'B6G1gislVyQ';
 //const igImgId = 'B6GOuCsAUkU';
+
+//With the URL below you can scrape the username from the profile page
+//const BASE_URL = `https://www.instagram.com/minneninja/`;
+
+//with the URL below you can scrape the username from the post
 const BASE_URL = `https://www.instagram.com/p/${igImgId}/`;
 let username;
 // / Create the base function to be ran /
